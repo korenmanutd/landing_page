@@ -13,6 +13,7 @@ body {
     flex: 1;
     margin-right: 150px;
     margin-left: 150px;
+    background-color: #2a384b;
 }
 
 .header #right {
