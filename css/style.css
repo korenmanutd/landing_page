@@ -5,3 +5,26 @@
 body {
     min-height: 100vh;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.header #right {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
