@@ -47,12 +47,11 @@ body {
 }
 
 .main #left {
-    max-height: 100%;
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .main #right {
@@ -77,4 +76,15 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.btn  {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 8px;
+}
+
+p {
+    margin: 0px;
 }
